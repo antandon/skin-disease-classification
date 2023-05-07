@@ -20,8 +20,8 @@ function Prediction() {
 
   const handleImageSubmit = async (event) => {
     event.preventDefault();
-    const predictionEndpointUrl = "https://skin123-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/a88a5650-940f-4480-878d-3c71b6f5522b/classify/iterations/Iteration3/image";
-    const predictionKey = "5b34264770bc4435980d03890b51114f";
+    const predictionEndpointUrl = "https://skindiseasecustomvisionapi-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/76a4c6fb-6ccc-447e-bd0c-e9f5a4b7bb2b/classify/iterations/Iteration2/image";
+    const predictionKey = "2b29132e6e634eb0a73c18030c167d83";
     const requestBody = new FormData();
     requestBody.append("image", imageFile);
     const requestOptions = {
